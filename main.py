@@ -35,5 +35,4 @@ print(top_pickup_locations)
 print("\nTop 5 Dropoff Locations:")
 print(top_dropoff_locations)
 
-# Optional: Save the cleaned data to a new CSV file if you want to keep it
 cleaned_data.to_csv('cleaned_fhv_tripdata_2023-03.csv', index=False)
